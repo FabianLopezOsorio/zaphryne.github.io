@@ -9,25 +9,14 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav text-xl mt-6>
-    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
-    </RouterLink>
-
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-language />
-    </a>
-
-    <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
+  <div class=" w-full items-center justify-center py-4 bg-gray-200">
+    <div class="justify-center flex space-x-6 py-4">
+      <img src="/svg/instagram-fill.svg" class="h-6 w-6 cursor-pointer">
+      <img src="/svg/pinterest-alt.svg" class="h-6 w-6 cursor-pointer">
+      <img src="/svg/facebook.svg" class="h-6 w-6 cursor-pointer">
+    </div>
+    <div class="text-sm text-gray-600">
+      ©2022 COPYRIGHT Sea Zaphryne Photography
+    </div>
+  </div>
 </template>

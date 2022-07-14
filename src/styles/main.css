@@ -15,7 +15,37 @@ html.dark {
 #nprogress {
   pointer-events: none;
 }
-
+button {
+  @apply px-4 py-1 rounded inline-block
+    bg-teal-600 text-white cursor-pointer
+    disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
+}
+.icon-btn {
+  @apply inline-block cursor-pointer select-none
+    opacity-75 transition duration-200 ease-in-out
+    hover:opacity-100 hover:text-teal-600;
+  font-size: 0.9em;
+}
+.carousel__next, .carousel__prev{
+  background: var(--vc-nav-background-color)
+}
+.carousel__next{
+  @apply bg-gray-200 bg-opacity-60 right-5 hover:bg-teal-600;
+}
+.carousel__prev{
+  @apply bg-gray-200 bg-opacity-60 left-5 hover:bg-teal-600;
+}
+.carousel__pagination-button{
+  
+  @apply bg-teal-600 bg-opacity-50;
+}
+.carousel__pagination-button--active{
+  @apply bg-teal-600;
+}
+.bgParallax{
+  background-image: url(/images/boda1.jpg);
+  background-attachment: fixed;
+}
 #nprogress .bar {
   background: rgb(13,148,136);
   opacity: 0.75;
@@ -25,4 +55,20 @@ html.dark {
   left: 0;
   width: 100%;
   height: 2px;
+}
+
+@font-face {
+  font-family: "Alex Brush";
+  font-weight: normal;
+  src: url("/font/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "Bright";
+  font-weight: normal;
+  src: url("/font/Bright Tropical.otf");
+}
+@font-face {
+  font-family: "Baskerville";
+  font-weight: normal;
+  src: url("/font/LibreBaskerville-Regular.ttf");
 }

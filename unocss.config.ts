@@ -24,6 +24,9 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
+        baskerville: 'Baskerville',
+        brush: 'Alex Brush',
+        bright: 'Bright',
         sans: 'DM Sans',
         serif: 'DM Serif Display',
         mono: 'DM Mono',
