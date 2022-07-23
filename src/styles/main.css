@@ -43,7 +43,7 @@ button {
   @apply bg-teal-600;
 }
 .bgParallax{
-  background-image: url(/images/boda1.jpg);
+  background-image: url(images/boda1.jpg);
   background-attachment: fixed;
 }
 #nprogress .bar {
@@ -60,15 +60,15 @@ button {
 @font-face {
   font-family: "Alex Brush";
   font-weight: normal;
-  src: url("/font/AlexBrush-Regular.ttf");
+  src: url("font/AlexBrush-Regular.ttf");
 }
 @font-face {
   font-family: "Bright";
   font-weight: normal;
-  src: url("/font/Bright Tropical.otf");
+  src: url("font/Bright Tropical.otf");
 }
 @font-face {
   font-family: "Baskerville";
   font-weight: normal;
-  src: url("/font/LibreBaskerville-Regular.ttf");
+  src: url("font/LibreBaskerville-Regular.ttf");
 }
