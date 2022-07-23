@@ -64,7 +64,7 @@ const { t } = useI18n()
       </div>
     </div>
   </div>
-  <div class="bgParallax h-60vh bg-cover">
+  <div class="bgParallax h-70vh bg-cover">
     <div class="pt-1/8 font-brush text-6xl text-teal-600">
       Browse my collection of high quality, finely detailed photos
     </div>
