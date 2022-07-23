@@ -43,7 +43,7 @@ button {
   @apply bg-teal-600;
 }
 .bgParallax{
-  background-image: url(images/boda1.jpg);
+  background-image: url(/images/boda1.jpg);
   background-attachment: fixed;
 }
 #nprogress .bar {
